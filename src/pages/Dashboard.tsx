@@ -55,7 +55,7 @@ const workflowProgress = [
   { stage: "Final Sign-off", progress: 45, count: 20 }
 ]
 
-export default function Dashboard() {
+function Dashboard() {
   return (
     <div className="space-y-6 p-6">
       {/* Hero Section */}
@@ -189,3 +189,5 @@ export default function Dashboard() {
     </div>
   )
 }
+
+export default Dashboard;
